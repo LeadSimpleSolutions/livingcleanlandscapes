@@ -362,6 +362,27 @@ img, section, div {
     font-size: 0.98rem !important;
   }
 }
+/* CENTER HEADER NAV ON MOBILE */
+@media (max-width: 820px) {
+  .main-nav {
+    justify-content: center !important;
+    width: 100% !important;
+    text-align: center !important;
+  }
+
+  .nav-link {
+    flex: 0 0 auto !important;
+  }
+
+  .header-grid {
+    justify-content: center !important;
+  }
+
+  .brand {
+    width: 100% !important;
+    justify-content: center !important;
+  }
+}
 
 
 
